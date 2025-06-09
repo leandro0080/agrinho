@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech Brasil - Início</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            /* Degradê de verdes */
+            background: linear-gradient(to bottom right, #a8e063, #56ab2f);
+            background-attachment: fixed; /* Fixa o degradê para que ele não role com o conteúdo */
+        }
+        header {
+            background-color: #28a745; /* Verde do agro */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #34c758; /* Um verde um pouco mais claro */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #218838; /* Verde mais escuro no hover */
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: white; /* O conteúdo principal terá fundo branco para contraste */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .section-links a {
+            flex-basis: 45%; /* Ajusta para duas colunas em telas maiores */
+            background-color: #e0ffe0; /* Verde claro */
+            border: 1px solid #d0ffd0;
+            padding: 25px;
+            margin: 10px 0;
+            text-align: center;
+            text-decoration: none;
+            color: #28a745;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .section-links a:hover {
+            background-color: #d0ffd0;
+            transform: translateY(-3px);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AgroTech Brasil: Inovação e Sustentabilidade no Campo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="tecnologia.html">Tecnologia no Agro</a></li>
+                <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                <li><a href="agricultura_familiar.html">Agronegócio Familiar</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Bem-vindo ao Mundo do Agronegócio!</h2>
+        <p>O agronegócio é o motor da economia brasileira, impulsionando o desenvolvimento e a produção de alimentos, fibras e bioenergia. Neste site, exploramos as diversas facetas desse setor vital, desde as tradições centenárias até as inovações que moldam o futuro do campo.</p>
+        <p>O Brasil é um gigante do agronegócio, destacando-se na produção de soja, milho, carne bovina, aves, suínos e uma vasta gama de produtos agrícolas. A importância do setor vai além dos números, impactando a vida de milhões de pessoas e garantindo a segurança alimentar global.</p>
+        <p>Convidamos você a navegar pelas seções abaixo para aprofundar seus conhecimentos em temas cruciais do agronegócio moderno.</p>
+
+        <div class="section-links">
+            <a href="tecnologia.html">
+                <h3>Tecnologia no Agro</h3>
+                <p>Descubra as inovações que estão transformando o campo.</p>
+            </a>
+            <a href="sustentabilidade.html">
+                <h3>Sustentabilidade</h3>
+                <p>Conheça as práticas para um agronegócio mais verde e responsável.</p>
+            </a>
+            <a href="agricultura_familiar.html">
+                <h3>Agronegócio Familiar</h3>
+                <p>Entenda a importância e os desafios da agricultura familiar no Brasil.</p>
+            </a>
+            <a href="contato.html">
+                <h3>Entre em Contato</h3>
+                <p>Fale conosco e tire suas dúvidas sobre o agronegócio.</p>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AgroTech Brasil. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

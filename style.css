@@ -1,0 +1,15 @@
+body {
+    /* ...outras propriedades... */
+    background: linear-gradient(to bottom right, #a8e063, #56ab2f); /* Degradê de fundo */
+    background-attachment: fixed; /* Fixa o degradê para que ele não role com o conteúdo */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+    /* Degradê de azul/roxo para tecnologia */
+    background: linear-gradient(to bottom right, #4CAF50, #2196F3); /* Verde para Azul vibrante */
+    background-attachment: fixed;
+}
